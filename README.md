@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+![Project homepage](https://github.com/Andronikus/crwn-clothing/blob/master/img/crwn-clothes-homepage.jpg)
+## CRWN-CLOTHING
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The master project of the [Complete React Developer in 2020 (w/ Redux, Hooks, GraphQL)](https://www.udemy.com/share/101WH4AkUYeF5TTHQ=/). An e-commerce app with Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase with payment process included.
 
-## Available Scripts
+## Demo
+Project like version can be found [here](https://crwn-clothes-shop-live.herokuapp.com/).
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+**Frontend**
+* React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Backend**
+* Firebase - Authentication & Database
+* Node & Express
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**API**
+* [Stripe](https://stripe.com/en-pt) - online payments processment
 
-### `npm test`
+**Deploy**
+* [Heroku](https://www.heroku.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**CI/CD**
+* [circleci](https://circleci.com/)
 
-### `npm run build`
+## TODO List
+- [ ] Add a friendly payment feedback
+- [ ] Increase test covarage
+- [ ] Dockerize project
+ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
